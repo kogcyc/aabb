@@ -214,4 +214,8 @@
 .highlight {
   color: #ffffff;
   background-color: #000000;
+  font-weight: 900;
+  font-size: 1.2em;
+  padding: 10px;
+  border-radius: 6px;
 }
