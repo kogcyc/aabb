@@ -9,6 +9,8 @@ excerpt : Read about why Matthew loves French engineering
 
 ##{{ title }}
 
-{{title}}
+{{ date }}
+
+{{ excerpt }}
 
 I just do!
