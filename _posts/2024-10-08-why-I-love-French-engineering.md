@@ -5,14 +5,7 @@ title: Why I love French engineering
 img: 
 excerpt : Read about why Matthew loves French engineering
 ---
-
-## {{ title }}
-
-## {{ title }}
-
-{{ date }}
-
-{{ excerpt }}
+## {{ page.title }}
 
 I just do!
 
