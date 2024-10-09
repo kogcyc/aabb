@@ -6,7 +6,7 @@ classes: _kontent
 
 <div class="logoDIV">
   <a
-    href="https://example.com"
+    href="."
     title="click here to go to the home page"
     class="logo"
   >
@@ -26,15 +26,7 @@ classes: _kontent
   {% endfor %}
 </ul>
 
-<div class="logoDIV">
-  <a
-    href="https://example.com"
-    title="click here to go to the home page"
-    class="logo"
-  >
-    kogswell
-  </a>
-</div>
+
 
 
 
