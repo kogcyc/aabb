@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 date: 2024-10-08
 title: "Why I love French engineering"
 img: ""
