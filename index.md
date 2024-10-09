@@ -1,17 +1,40 @@
 ---
 layout: index_layout
 title: Home
-classes: zero
+classes: _kontent
 ---
+
+<div class="logoDIV">
+  <a
+    href="https://example.com"
+    title="click here to go to the home page"
+    class="logo"
+  >
+    kogswell
+  </a>
+</div>
 
 <ul>
   {% assign ordered_pages = site.pages | sort: 'order' %}
   {% for page in ordered_pages %}
-  <div class="{{ page.collection }} {{ page.collection }}">
+  <div class="{{ page.collection }} {{ page.classes }}">
     <li>
-      <a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
+       <div class="title"><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></div>
       <p>{{ page.excerpt }}</p>
     </li>
   </div>
   {% endfor %}
 </ul>
+
+<div class="logoDIV">
+  <a
+    href="https://example.com"
+    title="click here to go to the home page"
+    class="logo"
+  >
+    kogswell
+  </a>
+</div>
+
+
+
