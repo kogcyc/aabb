@@ -10,3 +10,5 @@ kramdown:
 collections:
   pages:
     output: true # This ensures the pages will be generated in the site
+  others:
+    output: true # This ensures the pages will be generated in the site
