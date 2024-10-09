@@ -6,3 +6,7 @@ kramdown:
   input: GFM
   math_engine: mathjax
   syntax_highlighter: rouge
+
+collections:
+  pages:
+    output: true # This ensures the pages will be generated in the site
