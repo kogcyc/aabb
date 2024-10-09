@@ -1,4 +1,4 @@
-baseurl: "" 
+baseurl: "/aabb"
 url: "" 
 markdown: kramdown
 
